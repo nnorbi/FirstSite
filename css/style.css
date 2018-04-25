@@ -1,3 +1,15 @@
+/* CLEARFIX */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+    background: url("../img/bg.jpg") no-repeat center top / cover;
+    height: 100vh;
+}
+
 h1 {
     color: red;
 }
